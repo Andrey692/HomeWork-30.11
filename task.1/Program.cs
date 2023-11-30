@@ -9,7 +9,7 @@ void FillArray(int[] collection)
     int index = 0;
     while (index<length)
     {
-        collection[index] = new Random().Next(1,100); //   10 не входит
+        collection[index] = new Random().Next(1,100); 
         index++;
     }
 }
@@ -19,15 +19,6 @@ void PrintArray(int[] collection)
         System.Console.Write("["+ string.Join(", ",collection)+"] " + "=> ");
 
 }
-// {
-//     int length = collection.Length;
-//     int index = 0;
-//     while (index<length)
-//     {
-//         System.Console.Write(collection[index] + " ");
-//         index++;
-//     }
-// }
 
 
 int  IndexOf(int[] collection)

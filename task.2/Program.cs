@@ -8,20 +8,13 @@ void FillArray(int[] collection)
     int index = 0;
     while (index<length)
     {
-        collection[index] = new Random().Next(1,10); //   10 не входит
+        collection[index] = new Random().Next(1,10); 
         index++;
     }
 }
 
 void PrintArray(int[] collection)
 {
-    // int length = collection.Length;
-    // int index = 0;
-    // while (index<length)
-    // {
-    //     System.Console.Write(collection[index] + " ");
-    //     index++;
-    // }
             System.Console.Write("["+ string.Join(", ",collection)+"] " + "=> ");
 
 }
